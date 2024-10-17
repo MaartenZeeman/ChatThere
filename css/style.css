@@ -75,11 +75,10 @@ body {
     cursor: pointer;
 }
 .chat.active {
-    background-color: #fff;
+    background-color: #FBF7F4;
     color: #A1683A;
 }
 .chat.active .chat-summary {
-    background-color: #fff;
     color: #a1683aad;
 }
 .chat-header {
