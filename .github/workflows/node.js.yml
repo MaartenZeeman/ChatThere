@@ -32,4 +32,4 @@ jobs:
       run: |
         npm i puppeteer
         npx @puppeteer/browsers install chrome@stable
-    - run: npm test
+    - run: npm test --browsers ChromeHeadless
