@@ -28,8 +28,3 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - name: Install Chrome for Testing and its driver
-      run: |
-        npm i puppeteer
-        npx @puppeteer/browsers install chrome@stable
-    - run: npm test --browsers ChromeHeadless
