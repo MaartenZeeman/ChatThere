@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+/* color pallette:
+#6C9A8B
+#E8998D
+#EED2CC
+#FBF7F4
+#A1683A
+*/
+$color-brand-primary: #6C9A8B;
+$color-brand-secondary: #EED2CC;
+$color-brand-tertiary: #A1683A;
+
+$color-canvas: #FBF7F4;
+
+$color-text: #333;
+$color-text-inverted: #FBF7F4;
+
+$color-button: #E8998D;
+
+@font-face {
+    font-family: Agdasima;
+    src: url('/fonts/Agdasima-Regular.ttf');
+}
+
+* {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $color-canvas;
+    color: $color-text;
+    line-height: 1.6;
+}

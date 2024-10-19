@@ -1,0 +1,22 @@
+
+.container {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #FBF7F4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #6C9A8B;
+    color: #FBF7F4;
+    padding: 20px 0;
+}
+
+.main-content {
+    flex: 3;
+    padding: 40px;
+    position: relative;
+}

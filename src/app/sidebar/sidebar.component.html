@@ -1,0 +1,9 @@
+<article>
+    <div class="logo">
+        <img src="/images/logo.png" alt="Logo">
+        <h1>LutrinAI</h1>
+    </div>            
+    <section class="chat-container">
+        <app-sidebar-chat *ngFor="let chat of chats" [chat]="chat"></app-sidebar-chat>
+    </section>
+</article>
